@@ -1,0 +1,86 @@
+[
+	{
+		"id": 1,
+		"imageUrl": "/alexander_the_great.png",
+		"publisherId": 1,
+		"likes": [
+			2,
+			3,
+			2,
+			3,
+			2,
+			3,
+			3,
+			3,
+			3
+		],
+		"description": "Ovo je neki opis",
+		"mentioned": [
+			2,
+			3
+		]
+	},
+	{
+		"id": 2,
+		"imageUrl": "/alexander_the_great.png",
+		"publisherId": 1,
+		"likes": [
+			2,
+			3
+		],
+		"description": "Ovo je neki opis",
+		"mentioned": []
+	},
+	{
+		"id": 3,
+		"imageUrl": "/alexander_the_great.png",
+		"publisherId": 1,
+		"likes": [
+			2,
+			3
+		],
+		"description": "Ovo je neki opis",
+		"mentioned": []
+	},
+	{
+		"id": 4,
+		"imageUrl": "/alexander_the_great.png",
+		"publisherId": 1,
+		"likes": [
+			2,
+			3
+		],
+		"description": "Ovo je neki opis",
+		"mentioned": []
+	},
+	{
+		"id": 5,
+		"imageUrl": "/alexander_the_great.png",
+		"publisherId": 2,
+		"likes": [
+			1
+		],
+		"description": "Ovo je neki opis",
+		"mentioned": []
+	},
+	{
+		"id": 6,
+		"publisherId": 2,
+		"imageUrl": "/alexander_the_great.png",
+		"likes": [
+			1
+		],
+		"description": "Ovo je neki opis",
+		"mentioned": []
+	},
+	{
+		"id": 7,
+		"imageUrl": "/alexander_the_great.png",
+		"publisherId": 3,
+		"likes": [
+			1
+		],
+		"description": "Ovo je neki opis",
+		"mentioned": []
+	}
+]

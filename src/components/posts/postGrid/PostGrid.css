@@ -1,0 +1,19 @@
+#posts-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 100%;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+	#posts-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+/* Phones */
+@media (max-width: 600px) {
+	#posts-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

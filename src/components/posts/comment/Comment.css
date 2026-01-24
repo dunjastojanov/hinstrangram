@@ -1,0 +1,23 @@
+.comment {
+	display: flex;
+	gap: 12px;
+	margin: 16px 0;
+}
+
+.commenter-profile-image {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.comment-body {
+	display: flex;
+	flex-direction: row;
+	gap: 6px;
+	align-items: center;
+}
+
+.commenter {
+	font-weight: bold;
+}

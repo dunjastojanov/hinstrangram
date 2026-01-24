@@ -1,0 +1,59 @@
+.follow-modal {
+	width: 30vw;
+	height: 80vh;
+	overflow-y: scroll;
+	background-color: rgb(20, 26, 33);
+	scrollbar-width: thin;
+	/* Firefox */
+	scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+.follow-modal::-webkit-scrollbar {
+	width: 8px;
+}
+
+.follow-modal::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.follow-modal::-webkit-scrollbar-thumb {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 6px;
+}
+
+.follow-modal::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.follow-modal-header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background: inherit;
+	display: flex;
+	justify-content: flex-end;
+	padding: 24px 24px 0 24px;
+}
+
+.follow-modal-body {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 0 24px 24px 24px;
+}
+
+.follow-modal-user {
+	display: flex;
+	gap: 12px;
+}
+
+.follow-modal-user-profile-image {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.follow-modal-user-username {
+	font-weight: bold;
+}

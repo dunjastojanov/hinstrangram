@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"imageUrl": "./alexander_the_great.png",
+		"posterId": 1
+	},
+	{
+		"id": 2,
+		"imageUrl": "./alexander_the_great.png",
+		"posterId": 1
+	},
+	{
+		"id": 3,
+		"imageUrl": "./alexander_the_great.png",
+		"posterId": 1
+	},
+	{
+		"id": 4,
+		"imageUrl": "./alexander_the_great.png",
+		"posterId": 1
+	},
+	{
+		"id": 5,
+		"imageUrl": "./alexander_the_great.png",
+		"posterId": 1
+	},
+	{
+		"id": 6,
+		"imageUrl": "./alexander_the_great.png",
+		"posterId": 1
+	}
+]

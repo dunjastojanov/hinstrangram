@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"username": "Aleksandar_Veliki_1",
+		"profileImageUrl": "/alexander_the_great.png",
+		"description": "Aleksandar III Makedonski, poznatiji kao Aleksandar Veliki, bio je kralj starogrčkog kraljevstva Makedonije."
+	},
+	{
+		"id": 2,
+		"username": "Aleksandar_Veliki_2",
+		"profileImageUrl": "/alexander_the_great.png",
+		"description": "Aleksandar III Makedonski (stgrč. Ἀλέξανδρος, Alexandros; Pela, 20. jul 356. p. n. e. — Vavilon, 10. jun 323. p. n. e.), poznatiji kao Aleksandar Veliki,[a] bio je kralj starogrčkog kraljevstva Makedonije.[2] Nasledio je svog oca Filipa II na prestolu 336. p. n. e. u dobi od 20 godina, i proveo je većinu godina vladavine u dugotrajnom vojnom pohodu širom zapadne Azije i Egipta. Do svoje tridesete godine stvorio je jedno od najvećih carstava u istoriji, koje se protezalo od Grčke do severozapadne Indije.[3] Bio je neporažen u bitkama i smatra se jednim od najvećih i najuspešnijih vojnih komandanata u istoriji."
+	},
+	{
+		"id": 3,
+		"username": "Aleksandar_Veliki_3",
+		"profileImageUrl": "/alexander_the_great.png",
+		"description": "Aleksandar III Makedonski (stgrč. Ἀλέξανδρος, Alexandros; Pela, 20. jul 356. p. n. e. — Vavilon, 10. jun 323. p. n. e.), poznatiji kao Aleksandar Veliki,[a] bio je kralj starogrčkog kraljevstva Makedonije.[2] Nasledio je svog oca Filipa II na prestolu 336. p. n. e. u dobi od 20 godina, i proveo je većinu godina vladavine u dugotrajnom vojnom pohodu širom zapadne Azije i Egipta. Do svoje tridesete godine stvorio je jedno od najvećih carstava u istoriji, koje se protezalo od Grčke do severozapadne Indije.[3] Bio je neporažen u bitkama i smatra se jednim od najvećih i najuspešnijih vojnih komandanata u istoriji."
+	}
+]

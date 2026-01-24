@@ -1,0 +1,74 @@
+#header {
+	padding-top: 24px;
+	display: flex;
+}
+
+.profile-image-container {
+	width: 40%;
+}
+
+.profile-image-container>img {
+	border-radius: 50%;
+	width: 80%;
+}
+
+.profile-info-container {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	font-size: 18px;
+}
+
+.username {
+	font-size: 20px;
+}
+
+.follower-and-post-count {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.follower-and-post-count>div {
+	display: flex;
+	gap: 6px;
+}
+
+.follower-and-post-count>div>div:first-child {
+	font-weight: bold;
+}
+
+.follower-and-post-count>div>div:last-child {
+	color: #ffffff99;
+}
+
+.modal-button {
+	cursor: pointer;
+}
+
+/* Phones */
+@media (max-width: 600px) {
+	.follower-and-post-count {
+		display: flex;
+		gap: 12px;
+		justify-content: start;
+	}
+
+	#header {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.profile-image-container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding-bottom: 24px;
+	}
+
+	.profile-info-container {
+		width: 100%;
+	}
+}

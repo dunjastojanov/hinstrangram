@@ -1,0 +1,22 @@
+#highlights {
+	display: flex;
+	gap: 36px;
+	margin: 48px;
+	overflow-x: auto;
+	-ms-overflow-style: none;
+	/* IE / Edge */
+	scrollbar-width: none;
+	/* Firefox */
+}
+
+#highlights::-webkit-scrollbar {
+	display: none;
+	/* Chrome / Safari */
+}
+
+@media (max-width: 600px) {
+	#highlights {
+		margin: 24px;
+		gap: 16px;
+	}
+}

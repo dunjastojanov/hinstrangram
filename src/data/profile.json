@@ -1,0 +1,38 @@
+{
+	"id": 1,
+	"username": "Aleksandar_Veliki_1",
+	"profileImageUrl": "/alexander_the_great.png",
+	"description": "Aleksandar III Makedonski, poznatiji kao Aleksandar Veliki, bio je kralj starogrčkog kraljevstva Makedonije.",
+	"followers": [
+		2,
+		3,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2,
+		2
+	],
+	"following": [
+		3
+	]
+}

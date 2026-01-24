@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"coverId": 1,
+		"title": "Naslov 1",
+		"storyIds": [
+			1,
+			2,
+			3,
+			4
+		]
+	},
+	{
+		"id": 2,
+		"coverId": 5,
+		"title": "Naslov 2",
+		"storyIds": [
+			5,
+			6
+		]
+	},
+	{
+		"id": 3,
+		"coverId": 1,
+		"title": "Naslov 1",
+		"storyIds": [
+			1,
+			2,
+			3,
+			4
+		]
+	},
+	{
+		"id": 4,
+		"coverId": 5,
+		"title": "Naslov 2",
+		"storyIds": [
+			5,
+			6
+		]
+	},
+	{
+		"id": 5,
+		"coverId": 1,
+		"title": "Naslov 1",
+		"storyIds": [
+			1,
+			2,
+			3,
+			4
+		]
+	},
+	{
+		"id": 6,
+		"coverId": 5,
+		"title": "Naslov 2",
+		"storyIds": [
+			5,
+			6
+		]
+	},
+	{
+		"id": 7,
+		"coverId": 1,
+		"title": "Naslov 1",
+		"storyIds": [
+			1,
+			2,
+			3,
+			4
+		]
+	},
+	{
+		"id": 8,
+		"coverId": 5,
+		"title": "Naslov 2",
+		"storyIds": [
+			5,
+			6
+		]
+	}
+]

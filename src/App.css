@@ -1,0 +1,23 @@
+body {
+	background-color: rgb(12, 16, 20);
+	color: white;
+	font-family: sans-serif;
+	margin: 0 20%;
+	padding: 30px 20px;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+	body {
+		margin: 0 10%;
+		padding: 24px 16px;
+	}
+}
+
+/* Phones */
+@media (max-width: 600px) {
+	body {
+		margin: 0;
+		padding: 16px 12px;
+	}
+}

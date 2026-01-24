@@ -1,0 +1,30 @@
+#posts {
+	padding-top: 24px;
+}
+
+#posts-nav {
+	display: flex;
+}
+
+.tab-button {
+	height: 48px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.tab-button:last-child img {
+	height: 80%;
+}
+
+.tab-button:first-child img {
+	height: 50%;
+	padding: 10px;
+}
+
+.tab-button.selected {
+	border-bottom: 3px solid #fff;
+}
+

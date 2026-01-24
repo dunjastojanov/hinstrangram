@@ -1,0 +1,48 @@
+.post-page {
+	width: 100%;
+}
+
+.post-page-image {
+	height: 80vh;
+	width: calc(100% - 1px);
+	object-fit: cover;
+}
+
+.post-page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #ffffff30;
+}
+
+.post-page-poster {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.post-page-poster-profile-image {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.post-page-footer {
+	margin-top: 36px;
+	padding-top: 12px;
+	border-top: 1px solid #ffffff30;
+}
+
+.post-page-like-container {
+	display: flex;
+	margin-top: 12px;
+}
+
+.page-like-image {
+	margin-left: auto;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+}
