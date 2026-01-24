@@ -57,3 +57,11 @@
 .follow-modal-user-username {
 	font-weight: bold;
 }
+
+/* Phones */
+@media (max-width: 600px) {
+	.follow-modal {
+		width: 96vw;
+		height: 96vh;
+	}
+}
