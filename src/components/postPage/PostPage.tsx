@@ -1,25 +1,21 @@
+import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { usePosts } from "../../hooks/usePosts";
-import { useEffect, useState } from "react";
-import type { IPost } from "../../interfaces/post";
-import { Comments } from "../posts/comments/Comments";
-import "./PostPage.css";
-import { useMediaQuery } from "react-responsive";
 import { useUsers } from "../../hooks/useUsers";
+import type { IPost } from "../../interfaces/post";
 import type { IProfile } from "../../interfaces/profile";
 import { CloseIcon } from "../posts/closeIcon/CloseIcon";
-import { Mentioned } from "../posts/mentioned/Mentioned";
+import { Comments } from "../posts/comments/Comments";
 import { Likes } from "../posts/likes/Likes";
+import { Mentioned } from "../posts/mentioned/Mentioned";
+import "./PostPage.css";
 
 export function PostPage() {
 	const { id } = useParams();
 	const { getPostById } = usePosts();
 	const [post, setPost] = useState<IPost | undefined>(undefined);
-
-
 	const { getUserById } = useUsers();
 	const navigate = useNavigate();
-	const isMobile = useMediaQuery({ maxWidth: 600 });
 
 	const [poster, setPoster] = useState<IProfile>();
 	const [liked, setLiked] = useState(false);
