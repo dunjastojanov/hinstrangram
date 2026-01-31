@@ -1,13 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useProfile } from "../../hooks/useProfile";
 import "./Header.css";
 import { FollowModal } from "./followModal/FollowModal";
+import { usePosts } from "../../hooks/usePosts";
 
 export function Header() {
 	const profile = useProfile();
+	const { getPublishedPosts } = usePosts()
 
 	const [openFollowers, setOpenFollowers] = useState<boolean>(false);
 	const [openFollowing, setOpenFollowing] = useState<boolean>(false);
+	const [postCount, setPostCount] = useState<number>(0);
+
+	useEffect(() => {
+		setPostCount(getPublishedPosts(profile.id).length);
+	}, [])
+
 
 	return (
 		<>
@@ -19,7 +27,7 @@ export function Header() {
 					<div className="username">{profile.username}</div>
 					<div className="follower-and-post-count">
 						<div>
-							<div className="count">{13}</div>
+							<div className="count">{postCount}</div>
 							<div className="label">Objava</div>
 						</div>
 						<div className="modal-button" onClick={() => setOpenFollowers(true)}>

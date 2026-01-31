@@ -2,25 +2,19 @@
 	{
 		"id": 1,
 		"postId": 1,
-		"comment": "Ovo je neki komentar 1, to je mnogo dugačak komentar, baš ima puno teksta u tom komentaru, to je baš baš mnogo teksta",
-		"commenterId": 1
+		"comment": "Najlepši dan💞",
+		"commenterId": 3
 	},
 	{
 		"id": 2,
 		"postId": 1,
-		"comment": "Ovo je neki komentar 2",
-		"commenterId": 2
+		"comment": "❤️❤️❤️",
+		"commenterId": 3
 	},
 	{
 		"id": 3,
 		"postId": 1,
-		"comment": "Ovo je neki komentar 3",
-		"commenterId": 1
-	},
-	{
-		"id": 4,
-		"postId": 2,
-		"comment": "Ovo je neki komentar 4",
-		"commenterId": 1
+		"comment": "Hvala tata❤️",
+		"commenterId": 2
 	}
 ]

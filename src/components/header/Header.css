@@ -9,7 +9,9 @@
 
 .profile-image-container>img {
 	border-radius: 50%;
-	width: 80%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
 }
 
 .profile-info-container {

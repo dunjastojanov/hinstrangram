@@ -1,86 +1,39 @@
 [
 	{
 		"id": 1,
-		"imageUrl": "/alexander_the_great.png",
+		"imageUrl": "/vencanje.png",
 		"publisherId": 1,
 		"likes": [
 			2,
-			3,
-			2,
-			3,
-			2,
-			3,
-			3,
-			3,
 			3
 		],
-		"description": "Ovo je neki opis",
+		"description": "1078. Venčanje 💞💒",
 		"mentioned": [
-			2,
 			3
 		]
 	},
 	{
 		"id": 2,
-		"imageUrl": "/alexander_the_great.png",
+		"imageUrl": "/krunisanjealeksija.jpg",
 		"publisherId": 1,
 		"likes": [
 			2,
 			3
 		],
-		"description": "Ovo je neki opis",
+		"description": "4.4.1081. - Zvanično vizantijski car👑",
 		"mentioned": []
 	},
 	{
 		"id": 3,
-		"imageUrl": "/alexander_the_great.png",
+		"imageUrl": "/anakomnina2.jpg",
 		"publisherId": 1,
 		"likes": [
 			2,
 			3
 		],
-		"description": "Ovo je neki opis",
-		"mentioned": []
-	},
-	{
-		"id": 4,
-		"imageUrl": "/alexander_the_great.png",
-		"publisherId": 1,
-		"likes": [
-			2,
-			3
-		],
-		"description": "Ovo je neki opis",
-		"mentioned": []
-	},
-	{
-		"id": 5,
-		"imageUrl": "/alexander_the_great.png",
-		"publisherId": 2,
-		"likes": [
-			1
-		],
-		"description": "Ovo je neki opis",
-		"mentioned": []
-	},
-	{
-		"id": 6,
-		"publisherId": 2,
-		"imageUrl": "/alexander_the_great.png",
-		"likes": [
-			1
-		],
-		"description": "Ovo je neki opis",
-		"mentioned": []
-	},
-	{
-		"id": 7,
-		"imageUrl": "/alexander_the_great.png",
-		"publisherId": 3,
-		"likes": [
-			1
-		],
-		"description": "Ovo je neki opis",
-		"mentioned": []
+		"description": "Moja ćerka, moj ponos❤️📖",
+		"mentioned": [
+			2
+		]
 	}
 ]

@@ -1,32 +1,42 @@
 [
 	{
 		"id": 1,
-		"imageUrl": "./alexander_the_great.png",
+		"imageUrl": "/anakomnina.jpg",
 		"posterId": 1
 	},
 	{
 		"id": 2,
-		"imageUrl": "./alexander_the_great.png",
+		"imageUrl": "/jovan2komnin.jpg",
 		"posterId": 1
 	},
 	{
 		"id": 3,
-		"imageUrl": "./alexander_the_great.png",
+		"imageUrl": "/komninistori.jpg",
 		"posterId": 1
 	},
 	{
 		"id": 4,
-		"imageUrl": "./alexander_the_great.png",
+		"imageUrl": "/isakkomnin.jpg",
 		"posterId": 1
 	},
 	{
 		"id": 5,
-		"imageUrl": "./alexander_the_great.png",
+		"imageUrl": "/krstaskirat1.jpg",
 		"posterId": 1
 	},
 	{
 		"id": 6,
-		"imageUrl": "./alexander_the_great.png",
+		"imageUrl": "/krstaskirat2.jpg",
+		"posterId": 1
+	},
+	{
+		"id": 7,
+		"imageUrl": "/manastirkikos.jpg",
+		"posterId": 1
+	},
+	{
+		"id": 8,
+		"imageUrl": "/manastirkutlumus2.jpg",
 		"posterId": 1
 	}
 ]
