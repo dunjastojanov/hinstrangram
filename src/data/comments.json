@@ -1,13 +1,13 @@
 [
 	{
 		"id": 1,
-		"postId": 1,
+		"postId": 4,
 		"comment": "Najlepši dan💞",
 		"commenterId": 3
 	},
 	{
 		"id": 2,
-		"postId": 1,
+		"postId": 3,
 		"comment": "❤️❤️❤️",
 		"commenterId": 3
 	},
@@ -16,5 +16,11 @@
 		"postId": 1,
 		"comment": "Hvala tata❤️",
 		"commenterId": 2
+	},
+	{
+		"id":4,
+		"postId": 3,
+		"comment": "Čestitam.",
+		"commenterId": 10
 	}
 ]
