@@ -42,7 +42,7 @@ export function PostPage() {
 					<CloseIcon handleClick={() => navigate(-1)} />
 				</div>
 
-				<img className="post-page-image" src={"/alexander_the_great.png"} />
+				<img className="post-page-image" src={post.imageUrl} />
 				<div className="post-page-like-container">
 					{liked === true ?
 						<img className="page-like-image" onClick={() => setLiked(false)} src="/heart-filled.svg" /> :
